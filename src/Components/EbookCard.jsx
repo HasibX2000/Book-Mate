@@ -1,17 +1,21 @@
 import React from 'react';
 import Backdrop from '../assets/hero.jpg';
+import { Link } from 'react-router-dom';
 
 const EbookCard = () => {
   return (
-    <div className="max-w-sm relative border  rounded border-gray-500  mb-12 bg-white dark:bg-gray-900">
+    <div className="max-w-md relative border  rounded border-gray-500  mb-12 bg-white dark:bg-gray-900">
       <img src={Backdrop} alt="Ebook" className="rounded mb-3" />
       <span className="absolute top-2 left-2 bg-orange-500 rounded px-2 py-1 text-white">
         Best Seller
       </span>
       <div className="p-3">
-        <h3 className="mb-3 text-3xl dark:text-white font-medium text-gray-800">
+        <Link
+          to="/"
+          className="mb-3 text-3xl dark:text-white font-medium text-gray-800"
+        >
           The Complete Guide to Backend Development
-        </h3>
+        </Link>
         <p className="mb-3 text-md text-gray-800 dark:text-blue-100">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
           nulla, totam ducimus suscipit.
