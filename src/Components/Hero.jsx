@@ -4,7 +4,7 @@ import HeroImage from '../assets/hero.jpg';
 
 const Hero = () => {
   return (
-    <section className="flex justify-around items-center bg-gray-800">
+    <section className="flex justify-around items-center flex-col-reverse text-center  bg-gray-800 md:flex-row md:text-left">
       <div>
         <h1 className="text-4xl text-gray-500 dark:text-blue-100 font-bold mb-5">
           The Ultimate eBook Store
