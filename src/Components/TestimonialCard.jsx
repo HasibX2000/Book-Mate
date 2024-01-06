@@ -3,7 +3,7 @@ import UserImage from '../assets/hasib.png';
 
 const TestimonialCard = () => {
   return (
-    <div className="flex justify-between flex-col items-center border border-gray-600 bg-white dark:bg-gray-900 p-10 xl:p-14 w-1/2 max-w-screen ">
+    <div className="flex justify-between flex-col items-center border border-gray-600 bg-white dark:bg-gray-900 p-10 xl:p-14 w-screen lg:w-1/2 max-w-screen ">
       <h2 className="text-gray-800 dark:text-blue-100 text-2xl font-medium mb-3">
         Very easy to integrate
       </h2>
