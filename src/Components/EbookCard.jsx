@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const EbookCard = () => {
   return (
-    <div className="max-w-md relative border  rounded border-gray-500  mb-12 bg-white dark:bg-gray-900">
+    <div className="max-w-md relative border  rounded border-gray-500  bg-white dark:bg-gray-900">
       <img src={Backdrop} alt="Ebook" className="rounded mb-3" />
       <span className="absolute top-2 left-2 bg-orange-500 rounded px-2 py-1 text-white">
         Best Seller

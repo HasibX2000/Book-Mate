@@ -111,6 +111,9 @@ const Filter = ({ setShow }) => {
         onClick={() => setShow(false)}
         className="bi bi-x-circle absolute top-5 right-5  text-3xl cursor-pointer text-gray-800 dark:text-white"
       ></span>
+      <button className="mt-5 bg-gray-800 dark:bg-white px-5 py-3 dark:text-gray-800 text-white text-2xl">
+        Clear Filter
+      </button>
     </aside>
   );
 };

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import EbookCard from '../Components/EbookCard';
 import Filter from '../Components/Filter';
+import Products from '../Data/Prouducts.json';
 
 export const ProductPage = () => {
   const [show, setShow] = useState(false);
@@ -13,8 +14,10 @@ export const ProductPage = () => {
           className="bi bi-filter text-white text-3xl hover:cursor-pointer"
         ></span>
       </div>
-      <div>
-        <EbookCard />
+      <div className="flex flex-col lg:flex-row flex-wrap gap-20 justify-start">
+        {Products.map((item) => (
+          <EbookCard key={item.id} />
+        ))}
       </div>
       {show && <Filter setShow={setShow} />}
     </main>

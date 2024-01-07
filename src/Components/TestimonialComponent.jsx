@@ -3,7 +3,7 @@ import TestimonialCard from './TestimonialCard';
 
 const TestimonialComponent = () => {
   return (
-    <div className="mb-12">
+    <div className="my-12">
       <h3 className="text-3xl text-center  text-gray-800 dark:text-white font-bold underline p-5 mb-5">
         Student About CodeBook
       </h3>

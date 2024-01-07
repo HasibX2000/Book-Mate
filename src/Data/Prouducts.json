@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript Ebook",
+    "bestSeller": true,
+    "price": 34,
+    "inStock": true,
+    "details": "lorem ipsum sit amet",
+    "cover": "product/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Ebook",
+    "bestSeller": true,
+    "price": 34,
+    "inStock": true,
+    "details": "lorem ipsum sit amet",
+    "cover": "product/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Ebook",
+    "bestSeller": true,
+    "price": 34,
+    "inStock": true,
+    "details": "lorem ipsum sit amet",
+    "cover": "product/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Ebook",
+    "bestSeller": true,
+    "price": 34,
+    "inStock": true,
+    "details": "lorem ipsum sit amet",
+    "cover": "product/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Ebook",
+    "bestSeller": true,
+    "price": 34,
+    "inStock": true,
+    "details": "lorem ipsum sit amet",
+    "cover": "product/1.jpg"
+  }
+]

@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import HeroImage from '../assets/hero.jpg';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -15,10 +16,12 @@ const Hero = () => {
           saepe dolores accusantium accusamus ad quam architecto officia
           repudiandae laudantium.
         </p>
-        <Button
-          text="Explore Ebooks"
-          className="bg-blue-500 py-3 px-5 my-5 rounded"
-        />
+        <Link to="/product">
+          <Button
+            text="Explore Ebooks"
+            className="bg-blue-500 py-3 px-5 my-5 rounded"
+          />
+        </Link>
       </div>
       <div>
         <img
