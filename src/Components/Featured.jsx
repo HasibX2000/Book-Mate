@@ -9,7 +9,7 @@ const Featured = () => {
       <h3 className="text-3xl text-gray-800 dark:text-white font-bold underline p-5 mb-5">
         Featured eBooks
       </h3>
-      <div className="flex flex-wrap  gap-20">
+      <div className="flex flex-wrap  gap-5 justify-center 2xl:justify-between 2xl:gap-20">
         {Products.map((item) =>
           item.featured ? <EbookCard key={item.id} ebook={item} /> : null
         )}
