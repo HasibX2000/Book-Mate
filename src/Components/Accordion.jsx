@@ -1,8 +1,8 @@
 export default function Accordion(props) {
   return (
-    <div className="border border-gray-500 rounded mb-1">
+    <div className="border border-gray-500 mb-3">
       <button
-        className="w-full p-4 text-left text-3xl  bg-white dark:bg-gray-900  
+        className="w-full p-4 text-left text-2xl  bg-white dark:bg-gray-900  
                            transition duration-300 dark:text-white text-gray-800"
         onClick={props.toggleAccordion}
       >

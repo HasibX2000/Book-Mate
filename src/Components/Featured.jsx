@@ -1,6 +1,8 @@
 import React from 'react';
 import EbookCard from './EbookCard';
 
+import Products from '../Data/Prouducts.json';
+
 const Featured = () => {
   return (
     <div className="flex justify-center flex-col items-center ">
@@ -8,12 +10,9 @@ const Featured = () => {
         Featured eBooks
       </h3>
       <div className="flex flex-wrap  gap-20">
-        <EbookCard />
-        <EbookCard />
-        <EbookCard />
-        <EbookCard />
-        <EbookCard />
-        <EbookCard />
+        {Products.map((item) =>
+          item.featured ? <EbookCard key={item.id} ebook={item} /> : null
+        )}
       </div>
     </div>
   );

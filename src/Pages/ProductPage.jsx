@@ -16,7 +16,7 @@ export const ProductPage = () => {
       </div>
       <div className="flex flex-col lg:flex-row flex-wrap gap-20 justify-start">
         {Products.map((item) => (
-          <EbookCard key={item.id} />
+          <EbookCard key={item.id} ebook={item} />
         ))}
       </div>
       {show && <Filter setShow={setShow} />}
