@@ -4,6 +4,7 @@
     "title": "Echimys chrysurus",
     "price": 870,
     "instock": true,
+    "ratings": 5,
     "bestseller": true,
     "cover": "product/1.jpg",
     "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
@@ -13,6 +14,7 @@
     "title": "Eurocephalus anguitimens",
     "price": 746,
     "instock": true,
+    "ratings": 5,
     "bestseller": true,
     "featured": true,
     "cover": "product/2.jpg",
@@ -23,6 +25,7 @@
     "title": "Dasyprocta leporina",
     "price": 405,
     "instock": true,
+    "ratings": 5,
     "bestseller": true,
     "featured": true,
     "cover": "product/3.jpg",
@@ -33,6 +36,7 @@
     "title": "Bugeranus caruncalatus",
     "price": 943,
     "instock": true,
+    "ratings": 4,
     "bestseller": true,
     "featured": true,
     "cover": "product/4.jpg",
@@ -43,6 +47,7 @@
     "title": "Equus hemionus",
     "price": 127,
     "instock": false,
+    "ratings": 3,
     "featured": true,
     "cover": "product/5.jpg",
     "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
@@ -52,7 +57,7 @@
     "title": "Myotis lucifugus",
     "price": 891,
     "instock": true,
-
+    "ratings": 5,
     "featured": true,
     "bestseller": true,
     "cover": "product/6.jpg",
@@ -63,6 +68,8 @@
     "title": "Felis caracal",
     "price": 701,
     "instock": true,
+    "ratings": 3,
+
     "bestseller": true,
     "featured": true,
     "cover": "product/7.jpg",
@@ -72,6 +79,7 @@
     "id": 8,
     "title": "Ratufa indica",
     "price": 66,
+    "ratings": 2,
     "instock": false,
     "cover": "product/8.jpg",
     "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
@@ -81,6 +89,7 @@
     "title": "Sula dactylatra",
     "price": 588,
     "instock": true,
+    "ratings": 5,
     "bestseller": true,
     "cover": "product/3.jpg",
     "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
@@ -89,6 +98,7 @@
     "id": 10,
     "title": "Sagittarius serpentarius",
     "price": 965,
+    "ratings": 5,
     "instock": false,
     "cover": "product/5.jpg",
     "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"

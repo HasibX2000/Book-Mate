@@ -1,6 +1,7 @@
 import React from 'react';
 import Backdrop from '../assets/hero.jpg';
 import { Link } from 'react-router-dom';
+import Ratings from './Ratings';
 
 const EbookCard = ({ ebook }) => {
   const coverImage = ebook.cover ? ebook.cover : Backdrop;
@@ -22,12 +23,13 @@ const EbookCard = ({ ebook }) => {
         <p className="mb-3 text-md text-gray-800 dark:text-blue-100">
           {ebook.details}
         </p>
-        <div className="text-yellow-500 text-2xl mb-3">
+        <div className=" text-2xl mb-3">
+          <Ratings rating={ebook.ratings} />
+          {/* <span className="bi bi-star-fill text-yellow-500 mr-1"></span>
           <span className="bi bi-star-fill mr-1"></span>
+          <span className="bi bi-star mr-1"></span>
           <span className="bi bi-star-fill mr-1"></span>
-          <span className="bi bi-star-fill mr-1"></span>
-          <span className="bi bi-star-fill mr-1"></span>
-          <span className="bi bi-star-fill mr-1"></span>
+          <span className="bi bi-star-fill mr-1"></span> */}
         </div>
         <div className="flex justify-between items-center text-gray-800 dark:text-blue-100">
           <div className="text-2xl">${ebook.price}</div>
