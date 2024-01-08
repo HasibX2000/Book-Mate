@@ -14,8 +14,10 @@ const TestimonialCard = () => {
         <div>
           <img src={UserImage} alt="User" className="w-16 rounded-full" />
         </div>
-        <div>
-          <h2 className="text-gray-800 dark:text-white">Akon M Hasib</h2>
+        <div className="text-left">
+          <h2 className="text-gray-800 dark:text-white font-semibold">
+            Akon M Hasib
+          </h2>
           <p className="text-gray-800 dark:text-blue-100">
             Chief Executive Officer
           </p>

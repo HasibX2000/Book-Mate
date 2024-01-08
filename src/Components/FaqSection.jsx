@@ -5,28 +5,20 @@ const FaqSection = () => {
   const [accordions, setAccordion] = useState([
     {
       key: 1,
-      title: 'What is GeeksforGeeks?',
-      data: `GeeksforGeeks is a one stop solution  
-                      for all computer science students.`,
+      title: 'What is lorem ipsum?',
+      data: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.`,
       isOpen: false,
     },
     {
       key: 2,
-      title: 'What GeeksforGeeks offer us?',
-      data: `GeeksforGeeks offers Free Tutorials,  
-                      Millions of Articles, Live, Online and  
-                      Classroom Courses,Frequent Coding Competitions,  
-                      Webinars by Industry Experts, Internship  
-                      opportunities and Job Opportunities.`,
+      title: 'What is lorem ipsum?',
+      data: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.`,
       isOpen: false,
     },
     {
       key: 3,
-      title: 'Which is the best portal to study Computer Science?',
-      data: `GeeksforGeeks is the best Computer Science portal  
-                      for geeks. It contains well written, well thought  
-                      and well explained computer science and programming  
-                      articles.`,
+      title: 'What is lorem ipsum?',
+      data: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.`,
       isOpen: false,
     },
   ]);
