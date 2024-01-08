@@ -5,7 +5,7 @@ import Products from '../Data/Prouducts.json';
 
 const Featured = () => {
   return (
-    <div className="flex justify-center flex-col items-center ">
+    <div className="flex justify-center flex-col items-center p-5 md:p-0">
       <h3 className="text-3xl text-gray-800 dark:text-white font-bold underline p-5 mb-5">
         Featured eBooks
       </h3>
