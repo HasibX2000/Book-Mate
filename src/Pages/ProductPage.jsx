@@ -14,7 +14,7 @@ export const ProductPage = () => {
           className="bi bi-filter text-white text-3xl hover:cursor-pointer"
         ></span>
       </div>
-      <div className="flex flex-wrap  gap-5 justify-center 2xl:justify-between 2xl:gap-20">
+      <div className="grid xl:grid-cols-3  gap-5  md:grid-cols-2">
         {Products.map((item) => (
           <EbookCard key={item.id} ebook={item} />
         ))}

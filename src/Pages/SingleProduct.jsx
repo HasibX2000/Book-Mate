@@ -1,14 +1,11 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import Products from '../Data/Prouducts.json';
-import Backdrop from '../assets/hero.jpg';
 import Ratings from '../Components/Ratings';
-import Button from '../Components/Button';
 
 const SingleProduct = () => {
   const { id } = useParams();
   const product = Products.find((item) => item.title === id);
-  const coverImage = product.cover ? product.cover : Backdrop;
 
   return (
     <div className="container mx-auto py-5">
@@ -18,13 +15,9 @@ const SingleProduct = () => {
       <h1 className="text-xl text-center dark:text-blue-100 text-gray-800 py-2 mb-10">
         {product.details}
       </h1>
-      <div className="flex justify-center">
-        <div className="mr-10">
-          <img
-            src={product.id + '.jpg'}
-            alt="image"
-            className="w-screen max-w-3xl"
-          />
+      <div className="grid lg:grid-cols-2 gap-10 md:gap-5">
+        <div>
+          <img src={product.id + '.jpg'} alt="image" className="w-screen" />
         </div>
         <div className="flex  flex-col items-start">
           <h1 className="text-4xl text-center dark:text-blue-100 text-gray-800 font-medium pb-3">
