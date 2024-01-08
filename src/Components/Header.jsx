@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+  const [darkMode, setDarkMode] = useState(false);
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [darkMode]);
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="flex flex-wrap justify-between items-center container mx-auto max-w-screen-2xl p-4">
@@ -16,7 +24,10 @@ const Header = () => {
           </span>
         </Link>
         <div className="flex items-center space-x-6 rtl:space-x-reverse">
-          <span className="bi bi-gear text-slate-500 dark:text-white  text-xl"></span>
+          <span
+            onClick={() => setDarkMode(!darkMode)}
+            className="bi bi-gear text-slate-500 dark:text-white  text-xl hover:cursor-pointer"
+          ></span>
           <span className="bi bi-search text-slate-500 dark:text-white  text-xl"></span>
           <span className="bi bi-cart-fill text-slate-500 dark:text-white  text-xl"></span>
           <span className="bi bi-person-circle text-slate-500 dark:text-white  text-xl"></span>

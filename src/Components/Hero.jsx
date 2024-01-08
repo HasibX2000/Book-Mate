@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section className="flex justify-around items-center flex-col-reverse text-center  bg-gray-800 lg:flex-row md:text-left">
+    <section className="flex justify-around items-center flex-col-reverse text-center  dark:bg-gray-800 bg-white lg:flex-row md:text-left">
       <div>
         <h1 className="text-4xl text-gray-500 dark:text-blue-100 font-bold mb-5">
           The Ultimate eBook Store
@@ -19,7 +19,7 @@ const Hero = () => {
         <Link to="/product">
           <Button
             text="Explore Ebooks"
-            className="bg-blue-500 py-3 px-5 my-5 rounded"
+            className="bg-blue-500  text-white py-3 px-5 my-5 rounded"
           />
         </Link>
       </div>

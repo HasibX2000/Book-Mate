@@ -53,7 +53,7 @@ const SingleProduct = () => {
             )}
           </div>
           {product.instock ? (
-            <div className="bg-blue-500 flex justify-center items-center mt-5 px-3 py-2 rounded dark:text-blue-100 text-gray-8">
+            <div className="bg-blue-500 flex justify-center items-center mt-5 px-3 py-2 rounded text-blue-100 text-gray-8">
               Add To Cart
               <span className="bi bi-plus-square ml-3"></span>
             </div>
