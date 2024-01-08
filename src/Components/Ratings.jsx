@@ -11,10 +11,13 @@ const Ratings = ({ rating }) => {
         value ? (
           <span
             key={index}
-            className="bi bi-star-fill text-yellow-500 mr-1"
+            className="bi bi-star-fill text-yellow-500 mr-1 text-3xl"
           ></span>
         ) : (
-          <span key={index} className="bi bi-star text-yellow-500 mr-1"></span>
+          <span
+            key={index}
+            className="bi bi-star text-yellow-500 mr-1 text-3xl"
+          ></span>
         )
       )}
     </div>

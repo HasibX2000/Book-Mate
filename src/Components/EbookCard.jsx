@@ -15,7 +15,7 @@ const EbookCard = ({ ebook }) => {
       ) : null}
       <div className="p-3">
         <Link
-          to="/"
+          to={'/product' + '/' + ebook.title}
           className="mb-3 text-3xl dark:text-white font-medium text-gray-800"
         >
           {ebook.title}
@@ -25,11 +25,6 @@ const EbookCard = ({ ebook }) => {
         </p>
         <div className=" text-2xl mb-3">
           <Ratings rating={ebook.ratings} />
-          {/* <span className="bi bi-star-fill text-yellow-500 mr-1"></span>
-          <span className="bi bi-star-fill mr-1"></span>
-          <span className="bi bi-star mr-1"></span>
-          <span className="bi bi-star-fill mr-1"></span>
-          <span className="bi bi-star-fill mr-1"></span> */}
         </div>
         <div className="flex justify-between items-center text-gray-800 dark:text-blue-100">
           <div className="text-2xl">${ebook.price}</div>

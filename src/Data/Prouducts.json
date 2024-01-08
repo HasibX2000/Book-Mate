@@ -4,10 +4,12 @@
     "title": "Echimys chrysurus",
     "price": 870,
     "instock": true,
+    "fileSize": 10,
     "ratings": 5,
     "bestseller": true,
     "cover": "product/1.jpg",
-    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
+    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion",
+    "productInfo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis."
   },
   {
     "id": 2,
@@ -18,7 +20,8 @@
     "bestseller": true,
     "featured": true,
     "cover": "product/2.jpg",
-    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
+    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion",
+    "productInfo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis."
   },
   {
     "id": 3,
@@ -29,7 +32,8 @@
     "bestseller": true,
     "featured": true,
     "cover": "product/3.jpg",
-    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
+    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion",
+    "productInfo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis."
   },
   {
     "id": 4,
@@ -40,7 +44,8 @@
     "bestseller": true,
     "featured": true,
     "cover": "product/4.jpg",
-    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
+    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion",
+    "productInfo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis."
   },
   {
     "id": 5,
@@ -50,7 +55,8 @@
     "ratings": 3,
     "featured": true,
     "cover": "product/5.jpg",
-    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
+    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion",
+    "productInfo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis."
   },
   {
     "id": 6,
@@ -61,7 +67,8 @@
     "featured": true,
     "bestseller": true,
     "cover": "product/6.jpg",
-    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
+    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion",
+    "productInfo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis."
   },
   {
     "id": 7,
@@ -73,7 +80,8 @@
     "bestseller": true,
     "featured": true,
     "cover": "product/7.jpg",
-    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
+    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion",
+    "productInfo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis."
   },
   {
     "id": 8,
@@ -82,7 +90,8 @@
     "ratings": 2,
     "instock": false,
     "cover": "product/8.jpg",
-    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
+    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion",
+    "productInfo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis."
   },
   {
     "id": 9,
@@ -92,7 +101,8 @@
     "ratings": 5,
     "bestseller": true,
     "cover": "product/3.jpg",
-    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
+    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion",
+    "productInfo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis."
   },
   {
     "id": 10,
@@ -101,6 +111,7 @@
     "ratings": 5,
     "instock": false,
     "cover": "product/5.jpg",
-    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion"
+    "details": "Displaced apophyseal fracture of right femur, subsequent encounter for open fracture type I or II with nonunion",
+    "productInfo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis."
   }
 ]
