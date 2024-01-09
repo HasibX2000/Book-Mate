@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section className="flex justify-around items-center flex-col-reverse text-center  dark:bg-gray-800 bg-white lg:flex-row lg:text-left pt-24">
+    <section className="flex justify-around items-center flex-col-reverse gap-10 text-center  dark:bg-gray-800 bg-white lg:flex-row lg:text-left pt-10">
       <div>
         <h1 className="text-5xl text-gray-800  dark:text-blue-100 font-bold mb-5">
           The Ultimate eBook Store
@@ -27,7 +27,7 @@ const Hero = () => {
         <img
           src={HeroImage}
           alt="hero image"
-          className="max-w-sm md:max-w-md xl:max-w-2xl rounded-4xl  w-screen"
+          className="md:max-w-md xl:max-w-xl rounded-3xl lg:rounded-4xl p-4 md:p-0"
         />
       </div>
     </section>

@@ -9,7 +9,6 @@ export const HomePage = () => {
     <main className="container mx-auto ">
       <Hero />
       <Featured />
-
       <TestimonialComponent />
       <FaqSection />
     </main>
