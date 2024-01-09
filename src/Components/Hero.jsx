@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section className="flex justify-around items-center flex-col-reverse gap-10 text-center  dark:bg-gray-800 bg-white lg:flex-row lg:text-left pt-10">
+    <section className="flex justify-around items-center flex-col-reverse gap-10 text-center  dark:bg-orange-500 bg-white lg:flex-row lg:text-left pt-10">
       <div>
-        <h1 className="text-5xl text-gray-800  dark:text-blue-100 font-bold mb-5">
+        <h1 className="text-5xl text-orange-500  dark:text-white font-bold mb-5">
           The Ultimate eBook Store
         </h1>
-        <p className="text-2xl leading-7  text-gray-800 dark:text-blue-100">
+        <p className="text-2xl leading-7  text-orange-500 dark:text-white">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eius
           ratione beatae earum quam aliquam maiores, ab omnis. Illum minima
           saepe dolores accusantium accusamus ad quam architecto officia
@@ -19,7 +19,7 @@ const Hero = () => {
         <Link to="/product">
           <Button
             text="Explore Ebooks"
-            className="bg-blue-500 text-xl  text-white py-3 px-5 my-5  rounded"
+            className="bg-orange-600 text-xl  text-white py-3 px-5 my-5  rounded"
           />
         </Link>
       </div>

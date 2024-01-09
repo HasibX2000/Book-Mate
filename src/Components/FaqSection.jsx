@@ -38,7 +38,7 @@ const FaqSection = () => {
   return (
     <div>
       <div>
-        <h2 className="text-3xl text-center underline font-bold  mb-10 mx-auto dark:text-white text-gray-800">
+        <h2 className="text-3xl text-center underline font-bold  mb-10 mx-auto dark:text-white text-orange-500">
           Frequenlty Asked Questions
         </h2>
         {accordions.map((accordion) => (

@@ -4,7 +4,7 @@ import Footer from './Components/Footer';
 import SrcollToTop from './Components/SrcollToTop';
 export default function App() {
   return (
-    <div className="bg-white dark:bg-gray-800 relative">
+    <div className="bg-white dark:bg-orange-500 relative">
       <Header />
       <AllRoutes />
       <SrcollToTop />
