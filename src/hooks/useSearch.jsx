@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 const useSearch = (queryTerm) => {
   const [data, setData] = useState([]);
-  const url = `https://api.escuelajs.co/api/v1/products/?title=${queryTerm}`;
+  const url = `https://dummyjson.com/products/search?q=${queryTerm}`;
 
   useEffect(() => {
     async function fetchData() {

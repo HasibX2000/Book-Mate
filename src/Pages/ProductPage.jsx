@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import ProductCard from '../Components/ProductCard';
 import Filter from '../Components/Filter';
 import useFetch from '../hooks/useFetch';
+import useTitle from '../hooks/useTitle';
 
 export const ProductPage = () => {
   const [show, setShow] = useState(false);
   const { product } = useFetch();
+  useTitle('Product Page')
   return (
     <main className="container mx-auto py-5">
       <div className="flex justify-between my-5">

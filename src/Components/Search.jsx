@@ -1,5 +1,5 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Search = () => {
   const navigate = useNavigate();
@@ -8,7 +8,7 @@ const Search = () => {
     e.preventDefault();
     const queryTerm = e.target.search.value;
     e.target.reset();
-    return navigate(`/search/product?title=${queryTerm}`);
+    return navigate(`/product/search?q=${queryTerm}`);
   };
   return (
     <div className="container mx-auto">

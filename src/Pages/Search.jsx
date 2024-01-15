@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
-import ProductCard from '../Components/ProductCard';
-import useSearch from '../hooks/useSearch';
+import React, { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
+import ProductCard from "../Components/ProductCard";
+import useSearch from "../hooks/useSearch";
 
 const Search = () => {
   const [searchParams] = useSearchParams();
-  const queryTerm = searchParams.get('title');
+  const queryTerm = searchParams.get("q");
   const { data: products } = useSearch(queryTerm);
   const [loading, setLoading] = useState();
 
@@ -27,17 +27,17 @@ const Search = () => {
           )}
         </div>
       ) : (
-        'loading...'
+        "loading..."
       )}
       {!loading ? (
         <section className="grid md:grid-cols-3 gap-10">
           {products &&
-            products.map((item) => (
+            products.products.map((item) => (
               <ProductCard key={item.id} product={item} />
             ))}
         </section>
       ) : (
-        'Loading...'
+        "Loading..."
       )}
     </div>
   );
